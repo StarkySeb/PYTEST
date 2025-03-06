@@ -18,3 +18,4 @@ def test_multiplywrong():
 
 def test_divide():
     assert calculator.divide(8,2) == 4
+
