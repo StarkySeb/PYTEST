@@ -10,7 +10,6 @@ def test_add2():
     assert calculator.add(-2,9) == 7
     assert calculator.add(0,0) == 0
 
-
 def test_addwrong():
     assert calculator.add_wrong(5,3) == 8
     
@@ -31,19 +30,3 @@ def test_multiplywrong():
 
 def test_divide():
     assert calculator.divide(8,2) == 4
-
-<<<<<<< Updated upstream
-=======
-@pytest.mark.parametrize(
-    "a, b, expected",
-    [
-        (1, 2, 3),
-        (0, 5, 5),
-        (-2, 9, 7),
-        (5, -8, -3),
-    ],
-)
-
-def test_add_parametrized(a, b, expected):
-    assert calculator.add(a, b) == expected
->>>>>>> Stashed changes
